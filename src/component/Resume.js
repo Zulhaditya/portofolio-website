@@ -78,7 +78,7 @@ export default function Resume() {
                     </Col>
                 </Row>
                 <Row style={{ minHeight: "50vh" }}>
-                    <Col xs={12} md={6} style={{ backgroundColor: "#282836" }}>
+                    <Col xs={12} md={6}>
                         <h1
                             style={{
                                 textAlign: "center",
@@ -93,7 +93,7 @@ export default function Resume() {
                                 style={{
                                     width: 240,
                                     height: 50,
-                                    border: "1px solid yellow",
+                                    border: "1px solid rgb(189, 147, 249)",
                                     textAlign: "center",
                                     marginBottom: 18,
                                 }}
@@ -103,13 +103,14 @@ export default function Resume() {
                                         fontSize: 24,
                                         lineHeight: 2,
                                         fontWeight: "bold",
+                                        color:'rgb(189, 147, 249)'
                                     }}
                                 >
                                     2019 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3>Freelance Designer - fiverr</h3>
+                                <h3 style={{color:'rgb(189, 147, 249)'}}>Freelance Designer - fiverr</h3>
                                 <p>
                                     Saya mengerjakan design vector dengan style
                                     anime jepang dan juga menerima jasa design
@@ -123,7 +124,7 @@ export default function Resume() {
                                 style={{
                                     width: 240,
                                     height: 50,
-                                    border: "1px solid yellow",
+                                    border: "1px solid rgb(139, 233, 253)",
                                     textAlign: "center",
                                     marginBottom: 18,
                                 }}
@@ -133,13 +134,14 @@ export default function Resume() {
                                         fontSize: 24,
                                         lineHeight: 2,
                                         fontWeight: "bold",
+                                        color:'#8be9fd'
                                     }}
                                 >
                                     2016 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3>Musisi</h3>
+                                <h3 style={{color:'#8be9fd'}}>Musisi</h3>
                                 <p>
                                     Saya tergabung kedalam salah satu band punk bersama teman di sekolah. Posisi di band adalah gitaris
                                 </p>
@@ -150,7 +152,7 @@ export default function Resume() {
                                 style={{
                                     width: 240,
                                     height: 50,
-                                    border: "1px solid yellow",
+                                    border: "1px solid rgb(80, 250, 123)",
                                     textAlign: "center",
                                     marginBottom: 18,
                                 }}
@@ -160,14 +162,15 @@ export default function Resume() {
                                         fontSize: 24,
                                         lineHeight: 2,
                                         fontWeight: "bold",
+                                        color:'#50fa7b'
                                     }}
                                 >
-                                    2016-2018
+                                    2016 - 2018
                                 </h2>
                             </div>
                             <div>
                                 <div></div>
-                                <h3>Freelancer Videographer</h3>
+                                <h3 style={{color:'#50fa7b'}}>Freelancer Videographer</h3>
                                 <p>
                                 Pernah membuat project film pendek untuk mewakili sekolah saya di festival seni tingkat provinsi
                                 dan alhamdulillah berhasil mendapat juara 2.
@@ -178,7 +181,7 @@ export default function Resume() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} md={6} style={{ backgroundColor: "#282836" }}>
+                    <Col xs={12} md={6}>
                         <h1
                             style={{
                                 textAlign: "center",
@@ -194,7 +197,7 @@ export default function Resume() {
                                 style={{
                                     width: 240,
                                     height: 50,
-                                    border: "1px solid yellow",
+                                    border: "1px solid rgb(189, 147, 249)",
                                     textAlign: "center",
                                     marginBottom: 18,
                                 }}
@@ -204,13 +207,14 @@ export default function Resume() {
                                         fontSize: 24,
                                         lineHeight: 2,
                                         fontWeight: "bold",
+                                        color:'rgb(189, 147, 249)'
                                     }}
                                 >
                                     2019 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3>Universitas Amikom Yogyakarta</h3>
+                                <h3 style={{color:'rgb(189, 147, 249)'}}>Universitas Amikom Yogyakarta</h3>
                                 <p>
                                     Saya mengerjakan design vector dengan style
                                     anime jepang dan juga menerima jasa design
@@ -225,7 +229,7 @@ export default function Resume() {
                                 style={{
                                     width: 240,
                                     height: 50,
-                                    border: "1px solid yellow",
+                                    border: "1px solid rgb(139, 233, 253)",
                                     textAlign: "center",
                                     marginBottom: 18,
                                 }}
@@ -235,13 +239,14 @@ export default function Resume() {
                                         fontSize: 24,
                                         lineHeight: 2,
                                         fontWeight: "bold",
+                                        color:'rgb(139, 233, 253)'
                                     }}
                                 >
                                     2016 - 2018
                                 </h2>
                             </div>
                             <div>
-                                <h3>SMAN - 1 Lingga</h3>
+                                <h3 style={{color:'rgb(139, 233, 253)'}}>SMAN - 1 Lingga</h3>
                                 <p>
                                     Saya mengerjakan design vector dengan style
                                     anime jepang dan juga menerima jasa design
@@ -254,7 +259,7 @@ export default function Resume() {
                                 style={{
                                     width: 240,
                                     height: 50,
-                                    border: "1px solid yellow",
+                                    border: "1px solid rgb(80, 250, 123)",
                                     textAlign: "center",
                                     marginBottom: 18,
                                 }}
@@ -264,14 +269,14 @@ export default function Resume() {
                                         fontSize: 24,
                                         lineHeight: 2,
                                         fontWeight: "bold",
+                                        color:'rgb(80, 250, 123)'
                                     }}
                                 >
                                     2013-2015
                                 </h2>
                             </div>
                             <div>
-                                <div></div>
-                                <h3>SMPN 1 Lingga</h3>
+                                <h3 style={{color:'rgb(80, 250, 123)'}}>SMPN 1 Lingga</h3>
                                 <p>
                                     Saya mengerjakan design vector dengan style
                                     anime jepang dan juga menerima jasa design
@@ -279,7 +284,6 @@ export default function Resume() {
                                 </p>
                             </div>
                             <div>
-                                <div></div>
                             </div>
                         </div>
 
