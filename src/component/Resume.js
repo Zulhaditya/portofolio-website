@@ -291,23 +291,26 @@ export default function Resume() {
                 </Row>
 
                 <Row style={{minHeight:'50vh',marginBottom:'50vh', background:'rgb(40, 40, 54)'}}>
-                    <Col>
+                    <Col xs={12} md={6}>
                         <h1 style={{textAlign:'center', marginTop:30, marginBottom:30}}>Design Skill</h1>
                         <div style={{paddingLeft:30}}>
                             <div style={{marginBottom:30}}>
-                                <h2 style={{marginBottom:30}}>Figma</h2>
+                                <h2 style={{marginBottom:20}}>Figma</h2>
+                                <h2 style={{fontSize:20, marginLeft:370}}>90%</h2>
                                 <div style={{background:'rgb(189, 147, 249)', width:390, height:27, display:'inline-block'}}></div>
                                 <div style={{background:'rgb(69 69 90)', width:57, height:27, display:'inline-block'}}></div>
                             </div>
                             
                             <div style={{marginBottom:30}}>
                                 <h2 style={{marginBottom:30}}>Inkscape</h2>
+                                 <h2 style={{fontSize:20, marginLeft:290}}>70%</h2>
                                 <div style={{background:'rgb(139, 233, 253)', width:308, height:27,display:'inline-block'}}></div>
                                 <div style={{background:'rgb(69 69 90)', width:139, height:27, display:'inline-block'}}></div>
                             </div>
                             
                             <div style={{marginBottom:50}}>
                                 <h2 style={{marginBottom:30}}>Adobe Illustrator</h2>
+                                 <h2 style={{fontSize:20, marginLeft:350}}>80%</h2>
                                 <div style={{background:'rgb(80, 250, 123)', width:363, height:27,display:'inline-block'}}></div>
                                 <div style={{background:'rgb(69 69 90)', width:84, height:27, display:'inline-block'}}></div>
                             </div>
@@ -316,7 +319,7 @@ export default function Resume() {
                         </div>
                     </Col>
 
-                    <Col>
+                    <Col xs={12} md={6}>
                         <h1 style={{textAlign:'center', marginTop:30, marginBottom:30}}>Coding Skill</h1>
                     </Col>
 
