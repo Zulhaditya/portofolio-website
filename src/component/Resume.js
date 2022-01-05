@@ -54,6 +54,7 @@ export default function Resume() {
                     <Col xs={12} md={6}>
                         <h1 className="judul-experience">Experience</h1>
                         <div className="box-tahun">
+                            <div className='garis-1'></div>
                             <div className="sub-box-tahun" style={{border:'1px solid rgb(189,147,249)'}}>
                                 <h2 className="detail-tahun" style={{color:'rgb(189,147,249)'}}>
                                     2019 - Sekarang
@@ -72,6 +73,7 @@ export default function Resume() {
                         </div>
 
                         <div className="box-tahun">
+                            <div className='garis-2'></div>
                             <div className="sub-box-tahun" style={{border:'1px solid rgb(139, 233, 253)'}}>
                                 <h2 className="detail-tahun" style={{color:'rgb(139, 233, 253)'}}>
                                     2016 - Sekarang
@@ -87,11 +89,12 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="box-tahun">
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(80, 250, 123)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(80, 250, 123)'}}>2016 - 2018</h2>
+                            <div className='garis-3'></div>
+                            <div className="sub-box-tahun" style={{border:'1px solid rgb(255, 184, 108)'}}>
+                                <h2 className="detail-tahun" style={{color:'rgb(255, 184, 108)'}}>2016 - 2018</h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-exp" style={{color:'rgb(80,250,123)'}}>
+                                <h3 className="sub-judul-exp" style={{color:'rgb(255, 184, 108)'}}>
                                     Freelancer Videographer
                                 </h3>
                                 <p>
@@ -110,6 +113,7 @@ export default function Resume() {
                         <h1 className="judul-experience">Education</h1>
 
                         <div className="box-tahun">
+                            <div className="garis-4"></div>
                             <div className="sub-box-tahun"style={{border:'1px solid rgb(189,147,249)'}}>
                                 <h2 className="detail-tahun" style={{color:'rgb(189,147,249)'}}>
                                     2019 - Sekarang
@@ -143,11 +147,11 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="box-tahun">
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(80, 250, 123)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(80, 250, 123)'}}>2013-2015</h2>
+                            <div className="sub-box-tahun" style={{border:'1px solid rgb(255, 184, 108)'}}>
+                                <h2 className="detail-tahun" style={{color:'rgb(255, 184, 108)'}}>2013-2015</h2>
                             </div>
                             <div>
-                                <h3 className='sub-judul-exp' style={{color:'rgb(80, 250, 123)'}}>
+                                <h3 className='sub-judul-exp' style={{color:'rgb(255, 184, 108)'}}>
                                     SMPN 1 Lingga
                                 </h3>
                                 <p>
@@ -234,7 +238,7 @@ export default function Resume() {
                                 </h2>
                                 <div
                                     style={{
-                                        background: "rgb(80, 250, 123)",
+                                        background: "rgb(255, 184, 108)",
                                         width: 363,
                                         height: 27,
                                         display: "inline-block",

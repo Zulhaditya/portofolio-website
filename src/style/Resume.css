@@ -65,6 +65,49 @@
   text-align: center;
 }
 
+.garis-1 {
+  position: absolute;
+  width: 40px;
+  height: 212px;
+  left: 323px;
+  top: 975px;
+  border: 2px solid yellow;
+  border-right: none;
+}
+
+
+.garis-2 {
+  position: absolute;
+  width: 40px;
+  height: 217px;
+  left: 323px;
+  top: 1185px;
+  border: 2px solid yellow;
+  border-right: none;
+}
+
+
+.garis-3 {
+  position: absolute;
+  width: 40px;
+  height: 212px;
+  left: 995px;
+  top: 975px;
+  border: 2px solid yellow;
+  border-right: none;
+}
+
+
+
+.garis-4 {
+  position: absolute;
+  width: 40px;
+  height: 217px;
+  left: 995px;
+  top: 1185px;
+  border: 2px solid yellow;
+  border-right: none;
+}
 
 
 
