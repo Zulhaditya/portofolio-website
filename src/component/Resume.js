@@ -54,14 +54,23 @@ export default function Resume() {
                     <Col xs={12} md={6}>
                         <h1 className="judul-experience">Experience</h1>
                         <div className="box-tahun">
-                            <div className='garis-1'></div>
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(189,147,249)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(189,147,249)'}}>
+                            <div className="garis-1"></div>
+                            <div
+                                className="sub-box-tahun"
+                                style={{ border: "1px solid rgb(189,147,249)" }}
+                            >
+                                <h2
+                                    className="detail-tahun"
+                                    style={{ color: "rgb(189,147,249)" }}
+                                >
                                     2019 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-exp" style={{color:'rgb(189,147,249)'}}>
+                                <h3
+                                    className="sub-judul-exp"
+                                    style={{ color: "rgb(189,147,249)" }}
+                                >
                                     Freelance Designer - fiverr
                                 </h3>
                                 <p>
@@ -73,14 +82,27 @@ export default function Resume() {
                         </div>
 
                         <div className="box-tahun">
-                            <div className='garis-2'></div>
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(139, 233, 253)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(139, 233, 253)'}}>
+                            <div className="garis-2"></div>
+                            <div
+                                className="sub-box-tahun"
+                                style={{
+                                    border: "1px solid rgb(139, 233, 253)",
+                                }}
+                            >
+                                <h2
+                                    className="detail-tahun"
+                                    style={{ color: "rgb(139, 233, 253)" }}
+                                >
                                     2016 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-exp" style={{color:'rgb(139,233,253)'}}>Musisi</h3>
+                                <h3
+                                    className="sub-judul-exp"
+                                    style={{ color: "rgb(139,233,253)" }}
+                                >
+                                    Musisi
+                                </h3>
                                 <p>
                                     Saya tergabung kedalam salah satu band punk
                                     bersama teman di sekolah. Posisi di band
@@ -89,12 +111,25 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="box-tahun">
-                            <div className='garis-3'></div>
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(255, 184, 108)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(255, 184, 108)'}}>2016 - 2018</h2>
+                            <div className="garis-3"></div>
+                            <div
+                                className="sub-box-tahun"
+                                style={{
+                                    border: "1px solid rgb(255, 184, 108)",
+                                }}
+                            >
+                                <h2
+                                    className="detail-tahun"
+                                    style={{ color: "rgb(255, 184, 108)" }}
+                                >
+                                    2016 - 2018
+                                </h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-exp" style={{color:'rgb(255, 184, 108)'}}>
+                                <h3
+                                    className="sub-judul-exp"
+                                    style={{ color: "rgb(255, 184, 108)" }}
+                                >
                                     Freelancer Videographer
                                 </h3>
                                 <p>
@@ -114,13 +149,22 @@ export default function Resume() {
 
                         <div className="box-tahun">
                             <div className="garis-4"></div>
-                            <div className="sub-box-tahun"style={{border:'1px solid rgb(189,147,249)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(189,147,249)'}}>
+                            <div
+                                className="sub-box-tahun"
+                                style={{ border: "1px solid rgb(189,147,249)" }}
+                            >
+                                <h2
+                                    className="detail-tahun"
+                                    style={{ color: "rgb(189,147,249)" }}
+                                >
                                     2019 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-exp" style={{color:'rgb(189,147,249)'}}>
+                                <h3
+                                    className="sub-judul-exp"
+                                    style={{ color: "rgb(189,147,249)" }}
+                                >
                                     Universitas Amikom Yogyakarta
                                 </h3>
                                 <p>
@@ -132,11 +176,24 @@ export default function Resume() {
                         </div>
 
                         <div className="box-tahun">
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(139, 233, 253)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(139, 233, 253)'}}>2016 - 2018</h2>
+                            <div
+                                className="sub-box-tahun"
+                                style={{
+                                    border: "1px solid rgb(139, 233, 253)",
+                                }}
+                            >
+                                <h2
+                                    className="detail-tahun"
+                                    style={{ color: "rgb(139, 233, 253)" }}
+                                >
+                                    2016 - 2018
+                                </h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-exp" style={{color:'rgb(139, 233, 253)'}}>
+                                <h3
+                                    className="sub-judul-exp"
+                                    style={{ color: "rgb(139, 233, 253)" }}
+                                >
                                     SMAN - 1 Lingga
                                 </h3>
                                 <p>
@@ -147,11 +204,24 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="box-tahun">
-                            <div className="sub-box-tahun" style={{border:'1px solid rgb(255, 184, 108)'}}>
-                                <h2 className="detail-tahun" style={{color:'rgb(255, 184, 108)'}}>2013-2015</h2>
+                            <div
+                                className="sub-box-tahun"
+                                style={{
+                                    border: "1px solid rgb(255, 184, 108)",
+                                }}
+                            >
+                                <h2
+                                    className="detail-tahun"
+                                    style={{ color: "rgb(255, 184, 108)" }}
+                                >
+                                    2013-2015
+                                </h2>
                             </div>
                             <div>
-                                <h3 className='sub-judul-exp' style={{color:'rgb(255, 184, 108)'}}>
+                                <h3
+                                    className="sub-judul-exp"
+                                    style={{ color: "rgb(255, 184, 108)" }}
+                                >
                                     SMPN 1 Lingga
                                 </h3>
                                 <p>
@@ -165,30 +235,17 @@ export default function Resume() {
                     </Col>
                 </Row>
 
-                <Row
-                    style={{
-                        minHeight: "50vh",
-                        marginBottom: "50vh",
-                        background: "rgb(40, 40, 54)",
-                    }}
-                >
+                <Row className="row-skill">
                     <Col xs={12} md={6}>
-                        <h1
-                            style={{
-                                textAlign: "center",
-                                marginTop: 30,
-                                marginBottom: 30,
-                            }}
-                        >
-                            Design Skill
-                        </h1>
+                        <h1 className="title-design-skill">Design Skill</h1>
                         <div style={{ paddingLeft: 30 }}>
-                            <div style={{ marginBottom: 30 }}>
-                                <h2 style={{ marginBottom: 20 }}>Figma</h2>
-                                <h2 style={{ fontSize: 20, marginLeft: 370 }}>
+                            <div className='section-figma' style={{ marginBottom: 30 }}>
+                                <h2 className='sub-title-design'>Figma</h2>
+                                <h2 style={{marginLeft:380}} className='percent-angka'>
                                     90%
                                 </h2>
                                 <div
+                                    className='percent-bar'
                                     style={{
                                         background: "rgb(189, 147, 249)",
                                         width: 390,
@@ -197,6 +254,7 @@ export default function Resume() {
                                     }}
                                 ></div>
                                 <div
+                                    className='percent-none'
                                     style={{
                                         background: "rgb(69 69 90)",
                                         width: 57,
@@ -206,12 +264,13 @@ export default function Resume() {
                                 ></div>
                             </div>
 
-                            <div style={{ marginBottom: 30 }}>
-                                <h2 style={{ marginBottom: 30 }}>Inkscape</h2>
-                                <h2 style={{ fontSize: 20, marginLeft: 290 }}>
+                            <div className='section-inkscape' style={{ marginBottom: 30 }}>
+                                <h2 className='sub-title-design' style={{ marginBottom: 30 }}>Inkscape</h2>
+                                <h2 className='percent-angka' style={{ fontSize: 20, marginLeft: 290 }}>
                                     70%
                                 </h2>
                                 <div
+                                    className='percent-bar'
                                     style={{
                                         background: "rgb(139, 233, 253)",
                                         width: 308,
@@ -220,6 +279,7 @@ export default function Resume() {
                                     }}
                                 ></div>
                                 <div
+                                    className='percent-none'
                                     style={{
                                         background: "rgb(69 69 90)",
                                         width: 139,
@@ -229,14 +289,15 @@ export default function Resume() {
                                 ></div>
                             </div>
 
-                            <div style={{ marginBottom: 50 }}>
-                                <h2 style={{ marginBottom: 30 }}>
+                            <div className='section-illustrator' style={{ marginBottom: 50 }}>
+                                <h2 className='sub-title-design' style={{ marginBottom: 30 }}>
                                     Adobe Illustrator
                                 </h2>
-                                <h2 style={{ fontSize: 20, marginLeft: 350 }}>
+                                <h2 className='percent-angka' style={{ fontSize: 20, marginLeft: 350 }}>
                                     80%
                                 </h2>
                                 <div
+                                    className='percent-bar'
                                     style={{
                                         background: "rgb(255, 184, 108)",
                                         width: 363,
@@ -245,6 +306,7 @@ export default function Resume() {
                                     }}
                                 ></div>
                                 <div
+                                    className='percent-none'
                                     style={{
                                         background: "rgb(69 69 90)",
                                         width: 84,

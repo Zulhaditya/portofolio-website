@@ -109,7 +109,26 @@
   border-right: none;
 }
 
+/*Section skill*/
 
+.row-skill {
+  min-height: 50vh;
+  margin-bottom: 50vh;
+  background: rgb(40, 40, 54);
+}
 
+.title-design-skill {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sub-title-design {
+  margin-bottom: 30px;
+}
+
+.percent-angka {
+  font-size: 20px;
+}
 
 
