@@ -1,6 +1,14 @@
 import { Container, Row, Col } from "react-bootstrap";
 import myImage from "../img/zulhaditya-bw.jpeg";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import {
+    faHtml5,
+    faReact,
+    faAndroid,
+} from "@fortawesome/free-brands-svg-icons";
+
 export default function Resume() {
     return (
         <Container fluid className="g-0" style={{ background: "#383a59" }}>
@@ -8,12 +16,11 @@ export default function Resume() {
                 <Row
                     className="row-resume"
                     style={{
-                        backgroundColor: "yellow",
                         marginTop: 200,
                         marginBottom: 200,
                     }}
                 >
-                    <Col xs={12} md={5} style={{ backgroundColor: "#282836" }}>
+                    <Col xs={12} md={5} className="col-about">
                         {" "}
                         <img
                             className="img-profile"
@@ -21,7 +28,7 @@ export default function Resume() {
                             alt="myImage"
                         />
                     </Col>
-                    <Col xs={12} md={7} style={{ backgroundColor: "#282836" }}>
+                    <Col xs={12} md={7} className="col-about">
                         {" "}
                         <h1 className="judul-aboutMe">About Me</h1>{" "}
                         <h2 className="sub-judul-aboutMe">
@@ -55,22 +62,13 @@ export default function Resume() {
                         <h1 className="judul-experience">Experience</h1>
                         <div className="box-tahun">
                             <div className="garis-1"></div>
-                            <div
-                                className="sub-box-tahun"
-                                style={{ border: "1px solid rgb(189,147,249)" }}
-                            >
-                                <h2
-                                    className="detail-tahun"
-                                    style={{ color: "rgb(189,147,249)" }}
-                                >
+                            <div className="sub-box-tahun">
+                                <h2 className="detail-tahun">
                                     2019 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3
-                                    className="sub-judul-exp"
-                                    style={{ color: "rgb(189,147,249)" }}
-                                >
+                                <h3 className="sub-judul-exp">
                                     Freelance Designer - fiverr
                                 </h3>
                                 <p>
@@ -83,26 +81,13 @@ export default function Resume() {
 
                         <div className="box-tahun">
                             <div className="garis-2"></div>
-                            <div
-                                className="sub-box-tahun"
-                                style={{
-                                    border: "1px solid rgb(139, 233, 253)",
-                                }}
-                            >
-                                <h2
-                                    className="detail-tahun"
-                                    style={{ color: "rgb(139, 233, 253)" }}
-                                >
+                            <div className="sub-box-tahun">
+                                <h2 className="detail-tahun">
                                     2016 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3
-                                    className="sub-judul-exp"
-                                    style={{ color: "rgb(139,233,253)" }}
-                                >
-                                    Musisi
-                                </h3>
+                                <h3 className="sub-judul-exp">Musisi</h3>
                                 <p>
                                     Saya tergabung kedalam salah satu band punk
                                     bersama teman di sekolah. Posisi di band
@@ -112,24 +97,11 @@ export default function Resume() {
                         </div>
                         <div className="box-tahun">
                             <div className="garis-3"></div>
-                            <div
-                                className="sub-box-tahun"
-                                style={{
-                                    border: "1px solid rgb(255, 184, 108)",
-                                }}
-                            >
-                                <h2
-                                    className="detail-tahun"
-                                    style={{ color: "rgb(255, 184, 108)" }}
-                                >
-                                    2016 - 2018
-                                </h2>
+                            <div className="sub-box-tahun">
+                                <h2 className="detail-tahun">2016 - 2018</h2>
                             </div>
                             <div>
-                                <h3
-                                    className="sub-judul-exp"
-                                    style={{ color: "rgb(255, 184, 108)" }}
-                                >
+                                <h3 className="sub-judul-exp">
                                     Freelancer Videographer
                                 </h3>
                                 <p>
@@ -149,22 +121,13 @@ export default function Resume() {
 
                         <div className="box-tahun">
                             <div className="garis-4"></div>
-                            <div
-                                className="sub-box-tahun"
-                                style={{ border: "1px solid rgb(189,147,249)" }}
-                            >
-                                <h2
-                                    className="detail-tahun"
-                                    style={{ color: "rgb(189,147,249)" }}
-                                >
+                            <div className="sub-box-tahun-edu">
+                                <h2 className="detail-tahun-edu">
                                     2019 - Sekarang
                                 </h2>
                             </div>
                             <div>
-                                <h3
-                                    className="sub-judul-exp"
-                                    style={{ color: "rgb(189,147,249)" }}
-                                >
+                                <h3 className="sub-judul-edu">
                                     Universitas Amikom Yogyakarta
                                 </h3>
                                 <p>
@@ -176,24 +139,13 @@ export default function Resume() {
                         </div>
 
                         <div className="box-tahun">
-                            <div
-                                className="sub-box-tahun"
-                                style={{
-                                    border: "1px solid rgb(139, 233, 253)",
-                                }}
-                            >
-                                <h2
-                                    className="detail-tahun"
-                                    style={{ color: "rgb(139, 233, 253)" }}
-                                >
+                            <div className="sub-box-tahun-edu">
+                                <h2 className="detail-tahun-edu">
                                     2016 - 2018
                                 </h2>
                             </div>
                             <div>
-                                <h3
-                                    className="sub-judul-exp"
-                                    style={{ color: "rgb(139, 233, 253)" }}
-                                >
+                                <h3 className="sub-judul-edu">
                                     SMAN - 1 Lingga
                                 </h3>
                                 <p>
@@ -204,23 +156,16 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="box-tahun">
-                            <div
-                                className="sub-box-tahun"
-                                style={{
-                                    border: "1px solid rgb(255, 184, 108)",
-                                }}
-                            >
+                            <div className="sub-box-tahun-edu">
                                 <h2
-                                    className="detail-tahun"
-                                    style={{ color: "rgb(255, 184, 108)" }}
+                                    className="detail-tahun-edu"
                                 >
                                     2013-2015
                                 </h2>
                             </div>
                             <div>
                                 <h3
-                                    className="sub-judul-exp"
-                                    style={{ color: "rgb(255, 184, 108)" }}
+                                    className="sub-judul-edu"
                                 >
                                     SMPN 1 Lingga
                                 </h3>
@@ -346,7 +291,7 @@ export default function Resume() {
 
                     <Col xs={12} md={6}>
                         <h1
-                            className='title-coding'
+                            className="title-coding"
                             style={{
                                 textAlign: "center",
                                 marginTop: 30,
@@ -372,11 +317,13 @@ export default function Resume() {
                                             </div>
                                         </div>
                                     </div>
-                                    <h2 className='title-code'>React / Javascript</h2>
+                                    <h2 className="title-code">
+                                        React / Javascript
+                                    </h2>
                                 </div>
                             </Col>
                             <Col xs={12} md={6}>
-                                 <div className="section-php">
+                                <div className="section-php">
                                     <div className="circle-wrap-php">
                                         <div className="circle">
                                             <div className="mask full">
@@ -390,9 +337,8 @@ export default function Resume() {
                                             </div>
                                         </div>
                                     </div>
-                                    <h2 className='title-code'>PHP / MySql</h2>
+                                    <h2 className="title-code">PHP / MySql</h2>
                                 </div>
-
                             </Col>
                         </Row>
 
@@ -412,9 +358,8 @@ export default function Resume() {
                                             </div>
                                         </div>
                                     </div>
-                                    <h2 className='title-code'>HTML / CSS</h2>
+                                    <h2 className="title-code">HTML / CSS</h2>
                                 </div>
-
                             </Col>
                             <Col>
                                 <div className="section-python">
@@ -431,10 +376,146 @@ export default function Resume() {
                                             </div>
                                         </div>
                                     </div>
-                                    <h2 className='title-code'>Python</h2>
+                                    <h2 className="title-code">Python</h2>
                                 </div>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
 
+                <Row className="row-knowedu gap-5">
+                    <Col className="col-knowedu">
+                        <h1 className="title-knowedu">Knowledge</h1>
+                        <div className="list-knowledge">
+                            <span>
+                                <FontAwesomeIcon
+                                    icon={faCheck}
+                                    className="icon-know"
+                                    style={{ color: "#50fa7b" }}
+                                />
+                            </span>
+                            <span className="sub-list">
+                                Website Development
+                            </span>
+                        </div>
+                        <div className="list-knowledge">
+                            <span>
+                                <FontAwesomeIcon
+                                    icon={faCheck}
+                                    className="icon-know"
+                                    style={{ color: "#50fa7b" }}
+                                />
+                            </span>
+                            <span className="sub-list">
+                                Website Development
+                            </span>
+                        </div>
+                        <div className="list-knowledge">
+                            <span>
+                                <FontAwesomeIcon
+                                    icon={faCheck}
+                                    className="icon-know"
+                                    style={{ color: "#50fa7b" }}
+                                />
+                            </span>
+                            <span className="sub-list">
+                                Website Development
+                            </span>
+                        </div>
+                        <div className="list-knowledge">
+                            <span>
+                                <FontAwesomeIcon
+                                    icon={faCheck}
+                                    className="icon-know"
+                                    style={{ color: "#50fa7b" }}
+                                />
+                            </span>
+                            <span className="sub-list">
+                                Website Development
+                            </span>
+                        </div>
+                        <div className="list-knowledge">
+                            <span>
+                                <FontAwesomeIcon
+                                    icon={faCheck}
+                                    className="icon-know"
+                                    style={{ color: "#50fa7b" }}
+                                />
+                            </span>
+                            <span className="sub-list">
+                                Website Development
+                            </span>
+                        </div>
+                    </Col>
 
+                    <Col className="col-knowedu">
+                        <h1 className="title-knowedu">Education</h1>
+                        <Row className="row-serv">
+                            <Col md={2} className="col-icon-serv">
+                                <FontAwesomeIcon
+                                    icon={faHtml5}
+                                    className="icon-serv"
+                                    style={{
+                                        color: "rgb(255, 184, 108)",
+                                        width: 70,
+                                        height: 70,
+                                        marginLeft: 20,
+                                    }}
+                                />
+                            </Col>
+                            <Col md={10} className="col-detail-serv">
+                                <h2>Front-end</h2>
+                                <p>
+                                    Posuere mattis. Suspendisse egestas bibendum
+                                    nulla. In erat nunc, posuere sed, auctor
+                                    quis, pulvinar quis, mi. Mauris at est.
+                                </p>
+                            </Col>
+                        </Row>
+
+                        <Row className="row-serv">
+                            <Col md={2} className="col-icon-serv">
+                                <FontAwesomeIcon
+                                    icon={faReact}
+                                    className="icon-serv"
+                                    style={{
+                                        color: "rgb(139, 233, 253)",
+                                        width: 70,
+                                        height: 70,
+                                        marginLeft: 20,
+                                    }}
+                                />
+                            </Col>
+                            <Col md={10} className="col-detail-serv">
+                                <h2>Website Development</h2>
+                                <p>
+                                    Posuere mattis. Suspendisse egestas bibendum
+                                    nulla. In erat nunc, posuere sed, auctor
+                                    quis, pulvinar quis, mi. Mauris at est.
+                                </p>
+                            </Col>
+                        </Row>
+
+                        <Row className="row-serv">
+                            <Col md={2} className="col-icon-serv">
+                                <FontAwesomeIcon
+                                    icon={faAndroid}
+                                    className="icon-serv"
+                                    style={{
+                                        color: "#50fa7b",
+                                        width: 70,
+                                        height: 70,
+                                        marginLeft: 20,
+                                    }}
+                                />
+                            </Col>
+                            <Col md={10} className="col-detail-serv">
+                                <h2>Mobile Development</h2>
+                                <p>
+                                    Posuere mattis. Suspendisse egestas bibendum
+                                    nulla. In erat nunc, posuere sed, auctor
+                                    quis, pulvinar quis, mi. Mauris at est.
+                                </p>
                             </Col>
                         </Row>
                     </Col>

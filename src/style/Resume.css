@@ -1,4 +1,3 @@
-
 .container-resume {
   display: flex;
   justify-content: center;
@@ -13,6 +12,11 @@
   width: 403px;
 }
 
+.col-about {
+  background: rgb(40, 40, 54);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
 .judul-aboutMe {
   font-size: 60px;
   font-weight: bold;
@@ -25,11 +29,10 @@
   color: rgb(139, 233, 253);
 }
 
-.detail-aboutMe{
+.detail-aboutMe {
   font-size: 18px;
   margin-bottom: 50px;
 }
-
 
 /*Experience*/
 
@@ -42,12 +45,12 @@
   text-align: center;
   margin-bottom: 30;
   margin-top: 30;
+  font-weight: bold;
 }
 
 .box-tahun {
   margin-left: 70px;
   width: 400px;
-
 }
 
 .sub-box-tahun {
@@ -55,14 +58,42 @@
   height: 50px;
   margin-bottom: 20px;
   margin-top: 30px;
+  border: 1px solid rgb(255, 184, 108);
 }
 
+.sub-box-tahun-edu {
+  width: 240px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border: 1px solid rgb(139, 233, 253);
+
+}
+
+.sub-judul-exp {
+  color: rgb(255, 184, 108);
+  font-weight: bold;
+}
+
+.sub-judul-edu {
+  color: rgb(139, 233, 253);
+  font-weight: bold;
+}
 
 .detail-tahun {
   font-size: 24px;
   font-weight: bold;
   line-height: 2;
   text-align: center;
+  color: rgb(245,205,148);
+}
+
+.detail-tahun-edu {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  color: rgb(139, 233, 253);
 }
 
 .garis-1 {
@@ -71,10 +102,9 @@
   height: 212px;
   left: 323px;
   top: 975px;
-  border: 2px solid yellow;
+  border: 1px solid rgb(255, 184, 108);
   border-right: none;
 }
-
 
 .garis-2 {
   position: absolute;
@@ -82,10 +112,9 @@
   height: 217px;
   left: 323px;
   top: 1185px;
-  border: 2px solid yellow;
+  border: 1px solid rgb(255, 184, 108);
   border-right: none;
 }
-
 
 .garis-3 {
   position: absolute;
@@ -93,11 +122,11 @@
   height: 212px;
   left: 995px;
   top: 975px;
-  border: 2px solid yellow;
+  border-top: none;
+  border-bottom: none;
+  border: 1px solid rgb(139, 233, 253);
   border-right: none;
 }
-
-
 
 .garis-4 {
   position: absolute;
@@ -105,7 +134,7 @@
   height: 217px;
   left: 995px;
   top: 1185px;
-  border: 2px solid yellow;
+  border: 1px solid rgb(139, 233, 253);
   border-right: none;
 }
 
@@ -113,19 +142,18 @@
 
 .row-skill {
   min-height: 50vh;
-  margin-bottom: 50vh;
+  margin-bottom: 50px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
   background: rgb(40, 40, 54);
 }
 
 .title-design-skill {
   text-align: center;
   margin-top: 30px;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
-.sub-title-design {
-  margin-bottom: 30px;
-}
 
 .percent-angka {
   font-size: 20px;
@@ -191,11 +219,14 @@
   color: rgb(139, 233, 253);
 }
 
+.title-coding {
+  font-weight: bold;
+}
+
 .title-code {
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.5rem;
-  
 }
 
 .section-php {
@@ -258,8 +289,6 @@
   color: rgb(189, 147, 249);
 }
 
-
-
 .circle-wrap-html {
   margin-left: 80px;
   margin-bottom: 20px;
@@ -315,8 +344,6 @@
   font-size: 1.5em;
   color: rgb(255, 184, 108);
 }
-
-
 
 .circle-wrap-python {
   margin-left: 80px;
@@ -374,3 +401,45 @@
   color: rgb(98, 114, 164);
 }
 
+.row-knowedu {
+  margin-bottom: 100px;
+}
+
+.col-knowedu {
+  min-height: 50vh;
+  background-color: rgb(40, 40, 54);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.title-knowedu {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list-knowledge {
+  margin-left: 170px;
+  margin-bottom: 10px;
+}
+
+.sub-list {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.icon-know {
+  font-size: 20px;
+}
+
+.title-knowedu {
+  font-weight: bold;
+}
+
+.row-serv {
+  margin-bottom: 10px;
+}
+
+.col-detail-serv h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
