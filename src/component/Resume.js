@@ -11,15 +11,14 @@ import {
 
 export default function Resume() {
     return (
-        <Container fluid className="g-0" style={{ background: "#383a59" }}>
-            <Container className="container-resume">
-                <Row
-                    className="row-resume"
-                    style={{
-                        marginTop: 200,
-                        marginBottom: 200,
-                    }}
-                >
+        <Container
+            fluid
+            className="g-0"
+            xs={12}
+            style={{ background: "#383a59" }}
+        >
+            <Container className="container-resume" xs={12}>
+                <Row className="row-resume g-0" xs={12}>
                     <Col xs={12} md={5} className="col-about">
                         {" "}
                         <img
@@ -30,35 +29,38 @@ export default function Resume() {
                     </Col>
                     <Col xs={12} md={7} className="col-about">
                         {" "}
-                        <h1 className="judul-aboutMe">About Me</h1>{" "}
-                        <h2 className="sub-judul-aboutMe">
-                            20 tahun / Mahasiswa / Kepulauan Riau
-                        </h2>
-                        <p className="detail-aboutMe">
-                            Prolific, full stack web developer with a passion
-                            for metrics and beating former "best-yets."
-                            Prototyped 25 new product features per year for
-                            Flexor, Inc. Decreased rework by 22% and costs by
-                            15%. Consistently receive high user experience
-                            scores for all web development projects, including a
-                            55% increase for Flexor, Inc. Passionate about
-                            building world class web applications. One of my
-                            sites received a 2015 Webby for Best Navigation and
-                            Structure. Prolific, full stack web developer with a
-                            passion for metrics and beating former "best-yets."
-                            Prototyped 25 new product features per year for
-                            Flexor, Inc. Decreased rework by 22% and costs by
-                            15%. Consistently receive high user experience
-                            scores for all web development projects, including a
-                            55% increase for Flexor, Inc. Passionate about
-                            building world class web applications. One of my
-                            sites received a 2015 Webby for Best Navigation and
-                            S
-                        </p>
+                        <div className="main-aboutMe">
+                            <h1 className="judul-aboutMe">About Me</h1>{" "}
+                            <h2 className="sub-judul-aboutMe">
+                                20 tahun / Mahasiswa / Indonesia
+                            </h2>
+                            <p className="detail-aboutMe">
+                                Prolific, full stack web developer with a
+                                passion for metrics and beating former
+                                "best-yets." Prototyped 25 new product features
+                                per year for Flexor, Inc. Decreased rework by
+                                22% and costs by 15%. Consistently receive high
+                                user experience scores for all web development
+                                projects, including a 55% increase for Flexor,
+                                Inc. Passionate about building world class web
+                                applications. One of my sites received a 2015
+                                Webby for Best Navigation and Structure.
+                                Prolific, full stack web developer with a
+                                passion for metrics and beating former
+                                "best-yets." Prototyped 25 new product features
+                                per year for Flexor, Inc. Decreased rework by
+                                22% and costs by 15%. Consistently receive high
+                                user experience scores for all web development
+                                projects, including a 55% increase for Flexor,
+                                Inc. Passionate about building world class web
+                                applications. One of my sites received a 2015
+                                Webby for Best Navigation and S
+                            </p>
+                        </div>
                     </Col>
                 </Row>
-                <Row className="row-experience">
-                    <Col xs={12} md={6}>
+                <Row className="row-experience g-0 p-0">
+                    <Col xs={12} md={6} className="main-experience">
                         <h1 className="judul-experience">Experience</h1>
                         <div className="box-tahun">
                             <div className="garis-1"></div>
@@ -67,7 +69,7 @@ export default function Resume() {
                                     2019 - Sekarang
                                 </h2>
                             </div>
-                            <div>
+                            <div className="sub-exp">
                                 <h3 className="sub-judul-exp">
                                     Freelance Designer - fiverr
                                 </h3>
@@ -86,7 +88,7 @@ export default function Resume() {
                                     2016 - Sekarang
                                 </h2>
                             </div>
-                            <div>
+                            <div className="sub-exp">
                                 <h3 className="sub-judul-exp">Musisi</h3>
                                 <p>
                                     Saya tergabung kedalam salah satu band punk
@@ -100,7 +102,7 @@ export default function Resume() {
                             <div className="sub-box-tahun">
                                 <h2 className="detail-tahun">2016 - 2018</h2>
                             </div>
-                            <div>
+                            <div className="sub-exp">
                                 <h3 className="sub-judul-exp">
                                     Freelancer Videographer
                                 </h3>
@@ -111,9 +113,7 @@ export default function Resume() {
                                     mendapat juara 2.
                                 </p>
                             </div>
-                            <div>
-                                <div></div>
-                            </div>
+                            <div></div>
                         </div>
                     </Col>
                     <Col xs={12} md={6}>
@@ -157,18 +157,10 @@ export default function Resume() {
                         </div>
                         <div className="box-tahun">
                             <div className="sub-box-tahun-edu">
-                                <h2
-                                    className="detail-tahun-edu"
-                                >
-                                    2013-2015
-                                </h2>
+                                <h2 className="detail-tahun-edu">2013-2015</h2>
                             </div>
                             <div>
-                                <h3
-                                    className="sub-judul-edu"
-                                >
-                                    SMPN 1 Lingga
-                                </h3>
+                                <h3 className="sub-judul-edu">SMPN 1 Lingga</h3>
                                 <p>
                                     Saya mengerjakan design vector dengan style
                                     anime jepang dan juga menerima jasa design
@@ -180,346 +172,287 @@ export default function Resume() {
                     </Col>
                 </Row>
 
-                <Row className="row-skill">
-                    <Col xs={12} md={6}>
-                        <h1 className="title-design-skill">Design Skill</h1>
-                        <div style={{ paddingLeft: 30 }}>
-                            <div
-                                className="section-figma"
-                                style={{ marginBottom: 30 }}
-                            >
-                                <h2 className="sub-title-design">Figma</h2>
-                                <h2
-                                    style={{ marginLeft: 380 }}
-                                    className="percent-angka"
-                                >
-                                    90%
-                                </h2>
+                <div className="core-section">
+                    <Row className="row-skill g-0" xs={12}>
+                        <Col xs={12} md={6}>
+                            <h1 className="title-design-skill">Design Skill</h1>
+                            <div className="main-design">
                                 <div
-                                    className="percent-bar"
-                                    style={{
-                                        background: "rgb(189, 147, 249)",
-                                        width: 390,
-                                        height: 27,
-                                        display: "inline-block",
-                                    }}
-                                ></div>
-                                <div
-                                    className="percent-none"
-                                    style={{
-                                        background: "rgb(69 69 90)",
-                                        width: 57,
-                                        height: 27,
-                                        display: "inline-block",
-                                    }}
-                                ></div>
-                            </div>
-
-                            <div
-                                className="section-inkscape"
-                                style={{ marginBottom: 30 }}
-                            >
-                                <h2
-                                    className="sub-title-design"
+                                    className="section-figma"
                                     style={{ marginBottom: 30 }}
                                 >
-                                    Inkscape
-                                </h2>
-                                <h2
-                                    className="percent-angka"
-                                    style={{ fontSize: 20, marginLeft: 290 }}
-                                >
-                                    70%
-                                </h2>
-                                <div
-                                    className="percent-bar"
-                                    style={{
-                                        background: "rgb(139, 233, 253)",
-                                        width: 308,
-                                        height: 27,
-                                        display: "inline-block",
-                                    }}
-                                ></div>
-                                <div
-                                    className="percent-none"
-                                    style={{
-                                        background: "rgb(69 69 90)",
-                                        width: 139,
-                                        height: 27,
-                                        display: "inline-block",
-                                    }}
-                                ></div>
-                            </div>
+                                    <h2 className="sub-title-design">Figma</h2>
+                                    <h2 className="percent-angka-figma">90%</h2>
+                                    <div className="percent-bar-figma"></div>
+                                    <div className="percent-none-figma"></div>
+                                </div>
 
-                            <div
-                                className="section-illustrator"
-                                style={{ marginBottom: 50 }}
-                            >
-                                <h2
-                                    className="sub-title-design"
+                                <div
+                                    className="section-inkscape"
                                     style={{ marginBottom: 30 }}
                                 >
-                                    Adobe Illustrator
-                                </h2>
-                                <h2
-                                    className="percent-angka"
-                                    style={{ fontSize: 20, marginLeft: 350 }}
-                                >
-                                    80%
-                                </h2>
-                                <div
-                                    className="percent-bar"
-                                    style={{
-                                        background: "rgb(255, 184, 108)",
-                                        width: 363,
-                                        height: 27,
-                                        display: "inline-block",
-                                    }}
-                                ></div>
-                                <div
-                                    className="percent-none"
-                                    style={{
-                                        background: "rgb(69 69 90)",
-                                        width: 84,
-                                        height: 27,
-                                        display: "inline-block",
-                                    }}
-                                ></div>
-                            </div>
-                        </div>
-                    </Col>
-
-                    <Col xs={12} md={6}>
-                        <h1
-                            className="title-coding"
-                            style={{
-                                textAlign: "center",
-                                marginTop: 30,
-                                marginBottom: 30,
-                            }}
-                        >
-                            Coding Skill
-                        </h1>
-
-                        <Row>
-                            <Col xs={12} md={6}>
-                                <div className="section-react">
-                                    <div className="circle-wrap-react">
-                                        <div className="circle">
-                                            <div className="mask full">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="mask half">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="inside-circle">
-                                                85%
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h2 className="title-code">
-                                        React / Javascript
+                                    <h2
+                                        className="sub-title-design"
+                                        style={{ marginBottom: 30 }}
+                                    >
+                                        Inkscape
                                     </h2>
+                                    <h2 className="percent-angka-inkscape">
+                                        70%
+                                    </h2>
+                                    <div className="percent-bar-inkscape"></div>
+                                    <div className="percent-none-inkscape"></div>
                                 </div>
-                            </Col>
-                            <Col xs={12} md={6}>
-                                <div className="section-php">
-                                    <div className="circle-wrap-php">
-                                        <div className="circle">
-                                            <div className="mask full">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="mask half">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="inside-circle">
-                                                75%
+
+                                <div
+                                    className="section-illustrator"
+                                    style={{ marginBottom: 50 }}
+                                >
+                                    <h2
+                                        className="sub-title-design"
+                                        style={{ marginBottom: 30 }}
+                                    >
+                                        Adobe Illustrator
+                                    </h2>
+                                    <h2 className="percent-angka-illustrator">
+                                        80%
+                                    </h2>
+                                    <div className="percent-bar-illustrator"></div>
+                                    <div className="percent-none-illustrator"></div>
+                                </div>
+                            </div>
+                        </Col>
+
+                        <Col xs={12} md={6}>
+                            <h1 className="title-coding">Coding Skill</h1>
+
+                            <Row className="g-0" xs={12}>
+                                <Col xs={12} md={6}>
+                                    <div className="section-react">
+                                        <div className="circle-wrap-react">
+                                            <div className="circle">
+                                                <div className="mask full">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="mask half">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="inside-circle">
+                                                    85%
+                                                </div>
                                             </div>
                                         </div>
+                                        <h2 className="title-code">
+                                            React / Javascript
+                                        </h2>
                                     </div>
-                                    <h2 className="title-code">PHP / MySql</h2>
-                                </div>
-                            </Col>
-                        </Row>
-
-                        <Row>
-                            <Col xs={12} md={6}>
-                                <div className="section-html">
-                                    <div className="circle-wrap-html">
-                                        <div className="circle">
-                                            <div className="mask full">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="mask half">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="inside-circle">
-                                                90%
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <div className="section-php">
+                                        <div className="circle-wrap-php">
+                                            <div className="circle">
+                                                <div className="mask full">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="mask half">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="inside-circle">
+                                                    75%
+                                                </div>
                                             </div>
                                         </div>
+                                        <h2 className="title-code">
+                                            PHP / MySql
+                                        </h2>
                                     </div>
-                                    <h2 className="title-code">HTML / CSS</h2>
-                                </div>
-                            </Col>
-                            <Col>
-                                <div className="section-python">
-                                    <div className="circle-wrap-python">
-                                        <div className="circle">
-                                            <div className="mask full">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="mask half">
-                                                <div className="fill"></div>
-                                            </div>
-                                            <div className="inside-circle">
-                                                50%
+                                </Col>
+                            </Row>
+
+                            <Row className="g-0" xs={12}>
+                                <Col xs={12} md={6}>
+                                    <div className="section-html">
+                                        <div className="circle-wrap-html">
+                                            <div className="circle">
+                                                <div className="mask full">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="mask half">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="inside-circle">
+                                                    90%
+                                                </div>
                                             </div>
                                         </div>
+                                        <h2 className="title-code">
+                                            HTML / CSS
+                                        </h2>
                                     </div>
-                                    <h2 className="title-code">Python</h2>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
+                                </Col>
+                                <Col>
+                                    <div className="section-python">
+                                        <div className="circle-wrap-python">
+                                            <div className="circle">
+                                                <div className="mask full">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="mask half">
+                                                    <div className="fill"></div>
+                                                </div>
+                                                <div className="inside-circle">
+                                                    50%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 className="title-code">Python</h2>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
 
-                <Row className="row-knowedu gap-5">
-                    <Col className="col-knowedu">
-                        <h1 className="title-knowedu">Knowledge</h1>
-                        <div className="list-knowledge">
-                            <span>
-                                <FontAwesomeIcon
-                                    icon={faCheck}
-                                    className="icon-know"
-                                    style={{ color: "#50fa7b" }}
-                                />
-                            </span>
-                            <span className="sub-list">
-                                Website Development
-                            </span>
-                        </div>
-                        <div className="list-knowledge">
-                            <span>
-                                <FontAwesomeIcon
-                                    icon={faCheck}
-                                    className="icon-know"
-                                    style={{ color: "#50fa7b" }}
-                                />
-                            </span>
-                            <span className="sub-list">
-                                Website Development
-                            </span>
-                        </div>
-                        <div className="list-knowledge">
-                            <span>
-                                <FontAwesomeIcon
-                                    icon={faCheck}
-                                    className="icon-know"
-                                    style={{ color: "#50fa7b" }}
-                                />
-                            </span>
-                            <span className="sub-list">
-                                Website Development
-                            </span>
-                        </div>
-                        <div className="list-knowledge">
-                            <span>
-                                <FontAwesomeIcon
-                                    icon={faCheck}
-                                    className="icon-know"
-                                    style={{ color: "#50fa7b" }}
-                                />
-                            </span>
-                            <span className="sub-list">
-                                Website Development
-                            </span>
-                        </div>
-                        <div className="list-knowledge">
-                            <span>
-                                <FontAwesomeIcon
-                                    icon={faCheck}
-                                    className="icon-know"
-                                    style={{ color: "#50fa7b" }}
-                                />
-                            </span>
-                            <span className="sub-list">
-                                Website Development
-                            </span>
-                        </div>
-                    </Col>
+                    <Row className="row-knowedu gap-5 g-0 p-0">
+                        <Col className="col-knowedu">
+                            <h1 className="title-knowedu">Knowledge</h1>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Website Development
+                                </span>
+                            </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Website Development
+                                </span>
+                            </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Website Development
+                                </span>
+                            </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Website Development
+                                </span>
+                            </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Website Development
+                                </span>
+                            </div>
+                        </Col>
 
-                    <Col className="col-knowedu">
-                        <h1 className="title-knowedu">Education</h1>
-                        <Row className="row-serv">
-                            <Col md={2} className="col-icon-serv">
-                                <FontAwesomeIcon
-                                    icon={faHtml5}
-                                    className="icon-serv"
-                                    style={{
-                                        color: "rgb(255, 184, 108)",
-                                        width: 70,
-                                        height: 70,
-                                        marginLeft: 20,
-                                    }}
-                                />
-                            </Col>
-                            <Col md={10} className="col-detail-serv">
-                                <h2>Front-end</h2>
-                                <p>
-                                    Posuere mattis. Suspendisse egestas bibendum
-                                    nulla. In erat nunc, posuere sed, auctor
-                                    quis, pulvinar quis, mi. Mauris at est.
-                                </p>
-                            </Col>
-                        </Row>
+                        <Col className="col-knowedu">
+                            <h1 className="title-knowedu">Education</h1>
+                            <Row className="row-serv g-0">
+                                <Col md={2} className="col-icon-serv">
+                                    <FontAwesomeIcon
+                                        icon={faHtml5}
+                                        className="icon-serv"
+                                        style={{
+                                            color: "rgb(255, 184, 108)",
+                                            width: 70,
+                                            height: 70,
+                                            marginLeft: 20,
+                                        }}
+                                    />
+                                </Col>
+                                <Col md={10} className="col-detail-serv">
+                                    <h2>Front-end</h2>
+                                    <p>
+                                        Posuere mattis. Suspendisse egestas
+                                        bibendum nulla. In erat nunc, posuere
+                                        sed, auctor quis, pulvinar quis, mi.
+                                        Mauris at est.
+                                    </p>
+                                </Col>
+                            </Row>
 
-                        <Row className="row-serv">
-                            <Col md={2} className="col-icon-serv">
-                                <FontAwesomeIcon
-                                    icon={faReact}
-                                    className="icon-serv"
-                                    style={{
-                                        color: "rgb(139, 233, 253)",
-                                        width: 70,
-                                        height: 70,
-                                        marginLeft: 20,
-                                    }}
-                                />
-                            </Col>
-                            <Col md={10} className="col-detail-serv">
-                                <h2>Website Development</h2>
-                                <p>
-                                    Posuere mattis. Suspendisse egestas bibendum
-                                    nulla. In erat nunc, posuere sed, auctor
-                                    quis, pulvinar quis, mi. Mauris at est.
-                                </p>
-                            </Col>
-                        </Row>
+                            <Row className="row-serv g-0">
+                                <Col md={2} className="col-icon-serv">
+                                    <FontAwesomeIcon
+                                        icon={faReact}
+                                        className="icon-serv"
+                                        style={{
+                                            color: "rgb(139, 233, 253)",
+                                            width: 70,
+                                            height: 70,
+                                            marginLeft: 20,
+                                        }}
+                                    />
+                                </Col>
+                                <Col md={10} className="col-detail-serv">
+                                    <h2>Website Development</h2>
+                                    <p>
+                                        Posuere mattis. Suspendisse egestas
+                                        bibendum nulla. In erat nunc, posuere
+                                        sed, auctor quis, pulvinar quis, mi.
+                                        Mauris at est.
+                                    </p>
+                                </Col>
+                            </Row>
 
-                        <Row className="row-serv">
-                            <Col md={2} className="col-icon-serv">
-                                <FontAwesomeIcon
-                                    icon={faAndroid}
-                                    className="icon-serv"
-                                    style={{
-                                        color: "#50fa7b",
-                                        width: 70,
-                                        height: 70,
-                                        marginLeft: 20,
-                                    }}
-                                />
-                            </Col>
-                            <Col md={10} className="col-detail-serv">
-                                <h2>Mobile Development</h2>
-                                <p>
-                                    Posuere mattis. Suspendisse egestas bibendum
-                                    nulla. In erat nunc, posuere sed, auctor
-                                    quis, pulvinar quis, mi. Mauris at est.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
+                            <Row className="row-serv g-0">
+                                <Col md={2} className="col-icon-serv">
+                                    <FontAwesomeIcon
+                                        icon={faAndroid}
+                                        className="icon-serv"
+                                        style={{
+                                            color: "#50fa7b",
+                                            width: 70,
+                                            height: 70,
+                                            marginLeft: 20,
+                                        }}
+                                    />
+                                </Col>
+                                <Col md={10} className="col-detail-serv">
+                                    <h2>Mobile Development</h2>
+                                    <p>
+                                        Posuere mattis. Suspendisse egestas
+                                        bibendum nulla. In erat nunc, posuere
+                                        sed, auctor quis, pulvinar quis, mi.
+                                        Mauris at est.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
         </Container>
     );

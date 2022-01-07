@@ -50,7 +50,7 @@
 
 .box-tahun {
   margin-left: 70px;
-  width: 400px;
+  width: 500px;
 }
 
 .sub-box-tahun {
@@ -99,7 +99,7 @@
 .garis-1 {
   position: absolute;
   width: 40px;
-  height: 212px;
+  height: 190px;
   left: 323px;
   top: 975px;
   border: 1px solid rgb(255, 184, 108);
@@ -109,9 +109,9 @@
 .garis-2 {
   position: absolute;
   width: 40px;
-  height: 217px;
+  height: 190px;
   left: 323px;
-  top: 1185px;
+  top: 1165px;
   border: 1px solid rgb(255, 184, 108);
   border-right: none;
 }
@@ -119,8 +119,8 @@
 .garis-3 {
   position: absolute;
   width: 40px;
-  height: 212px;
-  left: 995px;
+  height: 190px;
+  left: 983px;
   top: 975px;
   border-top: none;
   border-bottom: none;
@@ -131,9 +131,9 @@
 .garis-4 {
   position: absolute;
   width: 40px;
-  height: 217px;
-  left: 995px;
-  top: 1185px;
+  height: 190px;
+  left: 983px;
+  top: 1165px;
   border: 1px solid rgb(139, 233, 253);
   border-right: none;
 }
@@ -221,6 +221,9 @@
 
 .title-coding {
   font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .title-code {
@@ -443,3 +446,227 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+.container-resume .row-resume {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.percent-bar-figma {
+   background: rgb(189, 147, 249);
+   width: 390px;
+   height: 27px;
+   display: inline-block;
+
+}
+
+.percent-none-figma {
+  background: rgb(69, 69, 90);
+  width: 57px;
+  height: 27px;
+  display: inline-block;
+}
+
+.percent-angka-figma {
+  margin-left: 380px;
+  font-size: 20px;
+}
+
+.percent-bar-inkscape {
+  background: rgb(139, 233, 253);
+  width: 308px;
+  height: 27px;
+  display: inline-block;
+
+}
+
+
+.percent-none-inkscape {
+  background: rgb(69, 69, 90);
+  width: 139px;
+  height: 27px;
+  display: inline-block;
+}
+
+.percent-angka-inkscape {
+  font-size: 20px;
+  margin-left: 290px;
+}
+
+.percent-bar-illustrator {
+  background: rgb(255, 184, 108);
+  width: 363px;
+  height: 27px;
+  display: inline-block;
+}
+
+.percent-none-illustrator {
+  background: rgb(69, 69, 90);
+  width: 84px;
+  height: 27px;
+  display: inline-block;
+}
+.percent-angka-illustrator {
+  font-size: 20px;
+  margin-left: 350px;
+}
+
+.main-design {
+  padding-left: 50px;
+}
+
+/*Responsive Mobile*/
+@media only screen and (max-width: 600px) {
+  .garis-1,.garis-2,.garis-3,.garis-4{
+    display: none;
+  }
+  .img-profile {
+    display: none;
+  }
+  .col-about {
+    box-shadow: none;
+  }
+  .row-skill {
+    box-shadow: none;
+  }
+  .col-knowedu {
+    box-shadow: none;
+  }
+  .main-design {
+    padding-left: 30px;
+  }
+  .sub-title-design {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .title-code {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .container-resume .row-resume {
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .main-aboutMe {
+    padding: 20px;
+  }
+  .detail-aboutMe {
+    text-align: justify;
+    font-size: 16px;
+  }
+  .judul-aboutMe {
+    font-size: 30px;
+    text-align: center;
+  }
+  .sub-judul-aboutMe {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .box-tahun {
+    margin-left: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 360px;
+  }
+
+  .main-experience {
+    margin-bottom: 50px;
+  }
+  .sub-judul-exp,.sub-judul-edu {
+    font-size: 22px;
+  }
+  .percent-bar-figma {
+    width: 250px;
+  }
+  .percent-none-figma {
+    width: 35px;
+  }
+  .percent-angka-figma {
+    margin-left: 230px;
+  }
+  .percent-bar-inkscape {
+    width: 210px;
+  }
+  .percent-none-inkscape {
+    width: 75px;
+  }
+  .percent-angka-inkscape {
+    margin-left: 190px;
+  }
+  .percent-bar-illustrator {
+    width: 230px;
+  }
+  .percent-none-illustrator {
+    width: 55px;
+  }
+  .percent-angka-illustrator {
+    margin-left: 240px;
+  }
+  .percent-angka-illustrator {
+    margin-left: 205px;
+  }
+
+  .circle-wrap-react,
+  .circle-wrap-php,
+  .circle-wrap-html,
+  .circle-wrap-python{
+    margin-left: 100px;
+  }
+
+  .section-react,
+  .section-php,
+  .section-html,
+  .section-python {
+    margin-bottom: 50px;
+  }
+
+  .title-coding {
+    margin-bottom: 50px;
+  }
+
+  .list-knowledge {
+    margin-left: 30px;
+  }
+
+  .core-section {
+    padding: 30px;
+  }
+  .col-detail-serv {
+    padding-left: 20px;
+  }
+  .col-detail-serv h2 {
+    text-align: center;
+  }
+  .col-detail-serv p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .col-icon-serv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .sub-exp {
+    width: 300px;
+  }
+
+  .sub-list {
+    font-size: 22px;
+  }
+
+  .row-experience {
+    margin-bottom: 10px;
+  }
+
+
+
+
+}
+
+
+
