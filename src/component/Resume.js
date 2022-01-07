@@ -239,13 +239,19 @@ export default function Resume() {
                     <Col xs={12} md={6}>
                         <h1 className="title-design-skill">Design Skill</h1>
                         <div style={{ paddingLeft: 30 }}>
-                            <div className='section-figma' style={{ marginBottom: 30 }}>
-                                <h2 className='sub-title-design'>Figma</h2>
-                                <h2 style={{marginLeft:380}} className='percent-angka'>
+                            <div
+                                className="section-figma"
+                                style={{ marginBottom: 30 }}
+                            >
+                                <h2 className="sub-title-design">Figma</h2>
+                                <h2
+                                    style={{ marginLeft: 380 }}
+                                    className="percent-angka"
+                                >
                                     90%
                                 </h2>
                                 <div
-                                    className='percent-bar'
+                                    className="percent-bar"
                                     style={{
                                         background: "rgb(189, 147, 249)",
                                         width: 390,
@@ -254,7 +260,7 @@ export default function Resume() {
                                     }}
                                 ></div>
                                 <div
-                                    className='percent-none'
+                                    className="percent-none"
                                     style={{
                                         background: "rgb(69 69 90)",
                                         width: 57,
@@ -264,13 +270,24 @@ export default function Resume() {
                                 ></div>
                             </div>
 
-                            <div className='section-inkscape' style={{ marginBottom: 30 }}>
-                                <h2 className='sub-title-design' style={{ marginBottom: 30 }}>Inkscape</h2>
-                                <h2 className='percent-angka' style={{ fontSize: 20, marginLeft: 290 }}>
+                            <div
+                                className="section-inkscape"
+                                style={{ marginBottom: 30 }}
+                            >
+                                <h2
+                                    className="sub-title-design"
+                                    style={{ marginBottom: 30 }}
+                                >
+                                    Inkscape
+                                </h2>
+                                <h2
+                                    className="percent-angka"
+                                    style={{ fontSize: 20, marginLeft: 290 }}
+                                >
                                     70%
                                 </h2>
                                 <div
-                                    className='percent-bar'
+                                    className="percent-bar"
                                     style={{
                                         background: "rgb(139, 233, 253)",
                                         width: 308,
@@ -279,7 +296,7 @@ export default function Resume() {
                                     }}
                                 ></div>
                                 <div
-                                    className='percent-none'
+                                    className="percent-none"
                                     style={{
                                         background: "rgb(69 69 90)",
                                         width: 139,
@@ -289,15 +306,24 @@ export default function Resume() {
                                 ></div>
                             </div>
 
-                            <div className='section-illustrator' style={{ marginBottom: 50 }}>
-                                <h2 className='sub-title-design' style={{ marginBottom: 30 }}>
+                            <div
+                                className="section-illustrator"
+                                style={{ marginBottom: 50 }}
+                            >
+                                <h2
+                                    className="sub-title-design"
+                                    style={{ marginBottom: 30 }}
+                                >
                                     Adobe Illustrator
                                 </h2>
-                                <h2 className='percent-angka' style={{ fontSize: 20, marginLeft: 350 }}>
+                                <h2
+                                    className="percent-angka"
+                                    style={{ fontSize: 20, marginLeft: 350 }}
+                                >
                                     80%
                                 </h2>
                                 <div
-                                    className='percent-bar'
+                                    className="percent-bar"
                                     style={{
                                         background: "rgb(255, 184, 108)",
                                         width: 363,
@@ -306,7 +332,7 @@ export default function Resume() {
                                     }}
                                 ></div>
                                 <div
-                                    className='percent-none'
+                                    className="percent-none"
                                     style={{
                                         background: "rgb(69 69 90)",
                                         width: 84,
@@ -320,6 +346,7 @@ export default function Resume() {
 
                     <Col xs={12} md={6}>
                         <h1
+                            className='title-coding'
                             style={{
                                 textAlign: "center",
                                 marginTop: 30,
@@ -328,6 +355,88 @@ export default function Resume() {
                         >
                             Coding Skill
                         </h1>
+
+                        <Row>
+                            <Col xs={12} md={6}>
+                                <div className="section-react">
+                                    <div className="circle-wrap-react">
+                                        <div className="circle">
+                                            <div className="mask full">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="inside-circle">
+                                                85%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className='title-code'>React / Javascript</h2>
+                                </div>
+                            </Col>
+                            <Col xs={12} md={6}>
+                                 <div className="section-php">
+                                    <div className="circle-wrap-php">
+                                        <div className="circle">
+                                            <div className="mask full">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="inside-circle">
+                                                75%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className='title-code'>PHP / MySql</h2>
+                                </div>
+
+                            </Col>
+                        </Row>
+
+                        <Row>
+                            <Col xs={12} md={6}>
+                                <div className="section-html">
+                                    <div className="circle-wrap-html">
+                                        <div className="circle">
+                                            <div className="mask full">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="inside-circle">
+                                                90%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className='title-code'>HTML / CSS</h2>
+                                </div>
+
+                            </Col>
+                            <Col>
+                                <div className="section-python">
+                                    <div className="circle-wrap-python">
+                                        <div className="circle">
+                                            <div className="mask full">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div className="inside-circle">
+                                                50%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className='title-code'>Python</h2>
+                                </div>
+
+
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>

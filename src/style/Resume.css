@@ -131,4 +131,246 @@
   font-size: 20px;
 }
 
+/*Section code skill*/
+.section-react {
+  margin-bottom: 30px;
+}
+.circle-wrap-react {
+  margin-left: 80px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 150px;
+  background: rgb(69, 69, 90);
+  border-radius: 50%;
+}
+
+.circle-wrap-react .circle .mask,
+.circle-wrap-react .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap-react .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap-react .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: rgb(139, 233, 253);
+}
+
+.circle-wrap-react .circle .mask.full,
+.circle-wrap-react .circle .fill {
+  animation: fill-react ease-in-out 5s infinite;
+}
+
+@keyframes fill-react {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+}
+
+.circle-wrap-react .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgb(40, 40, 54);
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: rgb(139, 233, 253);
+}
+
+.title-code {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  
+}
+
+.section-php {
+  margin-bottom: 30px;
+}
+
+.circle-wrap-php {
+  margin-left: 80px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 150px;
+  background: rgb(69, 69, 90);
+  border-radius: 50%;
+}
+
+.circle-wrap-php .circle .mask,
+.circle-wrap-php .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap-php .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap-php .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: rgb(189, 147, 249);
+}
+
+.circle-wrap-php .circle .mask.full,
+.circle-wrap-php .circle .fill {
+  animation: fill-php ease-in-out 5s infinite;
+}
+
+@keyframes fill-php {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(140deg);
+  }
+}
+
+.circle-wrap-php .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgb(40, 40, 54);
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: rgb(189, 147, 249);
+}
+
+
+
+.circle-wrap-html {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  background: rgb(69, 69, 90);
+  border-radius: 50%;
+}
+
+.circle-wrap-html .circle .mask,
+.circle-wrap-html .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap-html .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap-html .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: rgb(255, 184, 108);
+}
+
+.circle-wrap-html .circle .mask.full,
+.circle-wrap-html .circle .fill {
+  animation: fill-html ease-in-out 5s infinite;
+}
+
+@keyframes fill-html {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(165deg);
+  }
+}
+
+.circle-wrap-html .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgb(40, 40, 54);
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: rgb(255, 184, 108);
+}
+
+
+
+.circle-wrap-python {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  background: rgb(69, 69, 90);
+  border-radius: 50%;
+}
+
+.circle-wrap-python .circle .mask,
+.circle-wrap-python .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap-python .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap-python .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: rgb(98, 114, 164);
+}
+
+.circle-wrap-python .circle .mask.full,
+.circle-wrap-python .circle .fill {
+  animation: fill-python ease-in-out 5s infinite;
+}
+
+@keyframes fill-python {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(165deg);
+  }
+}
+
+.circle-wrap-python .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgb(40, 40, 54);
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: rgb(98, 114, 164);
+}
 
