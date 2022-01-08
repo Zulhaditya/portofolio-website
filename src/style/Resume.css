@@ -93,7 +93,7 @@
   font-weight: bold;
   line-height: 2;
   text-align: center;
-  color: rgb(139, 233, 253);
+  color: rgb(183 219 227);
 }
 
 .garis-1 {
@@ -443,7 +443,7 @@
 }
 
 .col-detail-serv h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -515,6 +515,12 @@
   padding-left: 50px;
 }
 
+.section-figma,
+.section-inkscape,
+.section-illustrator {
+  margin-bottom: 30px;
+}
+
 /*Responsive Mobile*/
 @media only screen and (max-width: 600px) {
   .garis-1,.garis-2,.garis-3,.garis-4{
@@ -533,7 +539,7 @@
     box-shadow: none;
   }
   .main-design {
-    padding-left: 30px;
+  padding: 0;
   }
   .sub-title-design {
     font-size: 22px;
@@ -565,39 +571,38 @@
     margin-bottom: 20px;
     text-align: center;
   }
-  .box-tahun {
-    margin-left: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    max-width: 360px;
-  }
 
   .main-experience {
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   .sub-judul-exp,.sub-judul-edu {
-    font-size: 22px;
+    font-size: 20px;
   }
   .percent-bar-figma {
-    width: 250px;
+    width: 200px;
   }
   .percent-none-figma {
     width: 35px;
   }
   .percent-angka-figma {
-    margin-left: 230px;
+    margin-left: 180px;
+    font-size: 17px;
   }
   .percent-bar-inkscape {
-    width: 210px;
+    width: 160px;
   }
   .percent-none-inkscape {
     width: 75px;
   }
   .percent-angka-inkscape {
-    margin-left: 190px;
+    margin-left: 145px;
+    font-size: 17px;
   }
   .percent-bar-illustrator {
-    width: 230px;
+    width: 180px;
   }
   .percent-none-illustrator {
     width: 55px;
@@ -606,14 +611,16 @@
     margin-left: 240px;
   }
   .percent-angka-illustrator {
-    margin-left: 205px;
+    margin-left: 160px;
+    font-size: 17px;
   }
 
   .circle-wrap-react,
   .circle-wrap-php,
   .circle-wrap-html,
   .circle-wrap-python{
-    margin-left: 100px;
+    margin: auto;
+    margin-bottom: 30px;
   }
 
   .section-react,
@@ -661,6 +668,32 @@
 
   .row-experience {
     margin-bottom: 10px;
+  }
+
+  .section-figma,
+  .section-inkscape,
+  .section-illustrator{
+    width: max-content;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .title-design-skill {
+    margin-bottom: 50px;
+  }
+
+  .list-knowledge {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .list-knowledge .sub-list {
+    font-size: 18px;
+  }
+
+  .box-tahun {
+    max-width: 300px;
+    margin:auto;
   }
 
 

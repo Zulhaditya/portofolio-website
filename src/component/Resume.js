@@ -179,7 +179,6 @@ export default function Resume() {
                             <div className="main-design">
                                 <div
                                     className="section-figma"
-                                    style={{ marginBottom: 30 }}
                                 >
                                     <h2 className="sub-title-design">Figma</h2>
                                     <h2 className="percent-angka-figma">90%</h2>
@@ -189,7 +188,6 @@ export default function Resume() {
 
                                 <div
                                     className="section-inkscape"
-                                    style={{ marginBottom: 30 }}
                                 >
                                     <h2
                                         className="sub-title-design"
@@ -206,7 +204,6 @@ export default function Resume() {
 
                                 <div
                                     className="section-illustrator"
-                                    style={{ marginBottom: 50 }}
                                 >
                                     <h2
                                         className="sub-title-design"
@@ -227,7 +224,7 @@ export default function Resume() {
                             <h1 className="title-coding">Coding Skill</h1>
 
                             <Row className="g-0" xs={12}>
-                                <Col xs={12} md={6}>
+                                <Col xs={12} md={6} className='col-react'>
                                     <div className="section-react">
                                         <div className="circle-wrap-react">
                                             <div className="circle">
@@ -388,7 +385,6 @@ export default function Resume() {
                                             color: "rgb(255, 184, 108)",
                                             width: 70,
                                             height: 70,
-                                            marginLeft: 20,
                                         }}
                                     />
                                 </Col>
@@ -412,7 +408,6 @@ export default function Resume() {
                                             color: "rgb(139, 233, 253)",
                                             width: 70,
                                             height: 70,
-                                            marginLeft: 20,
                                         }}
                                     />
                                 </Col>
@@ -436,7 +431,6 @@ export default function Resume() {
                                             color: "#50fa7b",
                                             width: 70,
                                             height: 70,
-                                            marginLeft: 20,
                                         }}
                                     />
                                 </Col>
