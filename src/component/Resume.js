@@ -32,29 +32,30 @@ export default function Resume() {
                         <div className="main-aboutMe">
                             <h1 className="judul-aboutMe">About Me</h1>{" "}
                             <h2 className="sub-judul-aboutMe">
-                                20 tahun / Mahasiswa / Indonesia
+                                20 Years / College Student / Indonesia
                             </h2>
                             <p className="detail-aboutMe">
-                                Prolific, full stack web developer with a
-                                passion for metrics and beating former
-                                "best-yets." Prototyped 25 new product features
-                                per year for Flexor, Inc. Decreased rework by
-                                22% and costs by 15%. Consistently receive high
-                                user experience scores for all web development
-                                projects, including a 55% increase for Flexor,
-                                Inc. Passionate about building world class web
-                                applications. One of my sites received a 2015
-                                Webby for Best Navigation and Structure.
-                                Prolific, full stack web developer with a
-                                passion for metrics and beating former
-                                "best-yets." Prototyped 25 new product features
-                                per year for Flexor, Inc. Decreased rework by
-                                22% and costs by 15%. Consistently receive high
-                                user experience scores for all web development
-                                projects, including a 55% increase for Flexor,
-                                Inc. Passionate about building world class web
-                                applications. One of my sites received a 2015
-                                Webby for Best Navigation and S
+                                I am an informatics engineering students at
+                                AMIKOM University, Yogyakarta. I've been
+                                studying for almost 3 years in the field of
+                                technology and are very interested in website
+                                development. I've Worked on several e-commerce
+                                website projects and have also designed the
+                                UI/UX of the website. For website development I
+                                use Javascript and some additional libraries to
+                                create a responsive and fast website for a
+                                better experience. Currently, I'm more focused
+                                on working on e-commerce website development
+                                project while learning about e-commerce
+                                application development on mobile. Maybe for the
+                                last, i will write my favorite quote.
+                                <br />
+                                <i style={{ fontWeight: "bold" }}>
+                                    "Fools ignore complexity. Pragmatists suffer
+                                    it. Some can avoid it. Geniuses remove it."
+                                    <br />{" "}
+                                </i>
+                                <p>~ Alan Perlis</p>
                             </p>
                         </div>
                     </Col>
@@ -65,18 +66,16 @@ export default function Resume() {
                         <div className="box-tahun">
                             <div className="garis-1"></div>
                             <div className="sub-box-tahun">
-                                <h2 className="detail-tahun">
-                                    2019 - Sekarang
-                                </h2>
+                                <h2 className="detail-tahun">2019 - Now</h2>
                             </div>
                             <div className="sub-exp">
                                 <h3 className="sub-judul-exp">
                                     Freelance Designer - fiverr
                                 </h3>
                                 <p>
-                                    Saya mengerjakan design vector dengan style
-                                    anime jepang dan juga menerima jasa design
-                                    logo dan juga jasa design lainnya.
+                                    Since 2019 until now, I design vectors in
+                                    anime style and also design UI/UX for a
+                                    website.
                                 </p>
                             </div>
                         </div>
@@ -84,16 +83,16 @@ export default function Resume() {
                         <div className="box-tahun">
                             <div className="garis-2"></div>
                             <div className="sub-box-tahun">
-                                <h2 className="detail-tahun">
-                                    2016 - Sekarang
-                                </h2>
+                                <h2 className="detail-tahun">2016 - Now</h2>
                             </div>
                             <div className="sub-exp">
-                                <h3 className="sub-judul-exp">Musisi</h3>
+                                <h3 className="sub-judul-exp">
+                                    Freelance Music Producer - fiverr
+                                </h3>
                                 <p>
-                                    Saya tergabung kedalam salah satu band punk
-                                    bersama teman di sekolah. Posisi di band
-                                    adalah gitaris
+                                    I like to make lofi music and also work as a
+                                    freelance on the fiverr website as a music
+                                    producer.
                                 </p>
                             </div>
                         </div>
@@ -104,13 +103,11 @@ export default function Resume() {
                             </div>
                             <div className="sub-exp">
                                 <h3 className="sub-judul-exp">
-                                    Freelancer Videographer
+                                    Freelance Photographer
                                 </h3>
                                 <p>
-                                    Pernah membuat project film pendek untuk
-                                    mewakili sekolah saya di festival seni
-                                    tingkat provinsi dan alhamdulillah berhasil
-                                    mendapat juara 2.
+                                    In photography, i'm focused on street
+                                    photography and urban exploration.
                                 </p>
                             </div>
                             <div></div>
@@ -122,18 +119,16 @@ export default function Resume() {
                         <div className="box-tahun">
                             <div className="garis-4"></div>
                             <div className="sub-box-tahun-edu">
-                                <h2 className="detail-tahun-edu">
-                                    2019 - Sekarang
-                                </h2>
+                                <h2 className="detail-tahun-edu">2019 - Now</h2>
                             </div>
                             <div>
                                 <h3 className="sub-judul-edu">
-                                    Universitas Amikom Yogyakarta
+                                    AMIKOM University Yogyakarta
                                 </h3>
                                 <p>
-                                    Saya mengerjakan design vector dengan style
-                                    anime jepang dan juga menerima jasa design
-                                    logo dan juga jasa design lainnya.
+                                    I'm currently studying for a bachelor's
+                                    degree in informatics engineering at Amikom
+                                    University, Yogyakarta.
                                 </p>
                             </div>
                         </div>
@@ -146,25 +141,31 @@ export default function Resume() {
                             </div>
                             <div>
                                 <h3 className="sub-judul-edu">
-                                    SMAN - 1 Lingga
+                                    Senior High School
                                 </h3>
                                 <p>
-                                    Saya mengerjakan design vector dengan style
-                                    anime jepang dan juga menerima jasa design
-                                    logo dan juga jasa design lainnya.
+                                    Since high school I have been interested in
+                                    technology and have studied several
+                                    programming languages.
                                 </p>
                             </div>
                         </div>
                         <div className="box-tahun">
                             <div className="sub-box-tahun-edu">
-                                <h2 className="detail-tahun-edu">2013-2015</h2>
+                                <h2 className="detail-tahun-edu">
+                                    2013 - 2015
+                                </h2>
                             </div>
                             <div>
-                                <h3 className="sub-judul-edu">SMPN 1 Lingga</h3>
+                                <h3 className="sub-judul-edu">
+                                    Junior High School
+                                </h3>
                                 <p>
-                                    Saya mengerjakan design vector dengan style
-                                    anime jepang dan juga menerima jasa design
-                                    logo dan juga jasa design lainnya.
+                                    In my opinion, the happiest times were in
+                                    junior high school because at that time
+                                    everything seemed very fun because I was
+                                    free to play with friends without having to
+                                    think about the future.
                                 </p>
                             </div>
                             <div></div>
@@ -177,18 +178,14 @@ export default function Resume() {
                         <Col xs={12} md={6}>
                             <h1 className="title-design-skill">Design Skill</h1>
                             <div className="main-design">
-                                <div
-                                    className="section-figma"
-                                >
+                                <div className="section-figma">
                                     <h2 className="sub-title-design">Figma</h2>
                                     <h2 className="percent-angka-figma">90%</h2>
                                     <div className="percent-bar-figma"></div>
                                     <div className="percent-none-figma"></div>
                                 </div>
 
-                                <div
-                                    className="section-inkscape"
-                                >
+                                <div className="section-inkscape">
                                     <h2
                                         className="sub-title-design"
                                         style={{ marginBottom: 30 }}
@@ -202,9 +199,7 @@ export default function Resume() {
                                     <div className="percent-none-inkscape"></div>
                                 </div>
 
-                                <div
-                                    className="section-illustrator"
-                                >
+                                <div className="section-illustrator">
                                     <h2
                                         className="sub-title-design"
                                         style={{ marginBottom: 30 }}
@@ -224,7 +219,7 @@ export default function Resume() {
                             <h1 className="title-coding">Coding Skill</h1>
 
                             <Row className="g-0" xs={12}>
-                                <Col xs={12} md={6} className='col-react'>
+                                <Col xs={12} md={6} className="col-react">
                                     <div className="section-react">
                                         <div className="circle-wrap-react">
                                             <div className="circle">
@@ -321,7 +316,7 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Website Development
+                                    HTML and CSS
                                 </span>
                             </div>
                             <div className="list-knowledge">
@@ -333,7 +328,7 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Website Development
+                                    Javascript
                                 </span>
                             </div>
                             <div className="list-knowledge">
@@ -345,7 +340,7 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Website Development
+                                    Framework and Libraries
                                 </span>
                             </div>
                             <div className="list-knowledge">
@@ -357,7 +352,7 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Website Development
+                                    Version Control
                                 </span>
                             </div>
                             <div className="list-knowledge">
@@ -369,13 +364,52 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Website Development
+                                    Device Testing
                                 </span>
                             </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Web Performance Optimization
+                                </span>
+                            </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Search Engine Optimization
+                                </span>
+                            </div>
+                            <div className="list-knowledge">
+                                <span>
+                                    <FontAwesomeIcon
+                                        icon={faCheck}
+                                        className="icon-know"
+                                        style={{ color: "#50fa7b" }}
+                                    />
+                                </span>
+                                <span className="sub-list">
+                                    Responsive / Mobile Design
+                                </span>
+                            </div>
+
+
+
                         </Col>
 
                         <Col className="col-knowedu">
-                            <h1 className="title-knowedu">Education</h1>
+                            <h1 className="title-knowedu">Services</h1>
                             <Row className="row-serv g-0">
                                 <Col md={2} className="col-icon-serv">
                                     <FontAwesomeIcon
@@ -389,12 +423,11 @@ export default function Resume() {
                                     />
                                 </Col>
                                 <Col md={10} className="col-detail-serv">
-                                    <h2>Front-end</h2>
+                                    <h2>Front-End Developer</h2>
                                     <p>
-                                        Posuere mattis. Suspendisse egestas
-                                        bibendum nulla. In erat nunc, posuere
-                                        sed, auctor quis, pulvinar quis, mi.
-                                        Mauris at est.
+                                        I have almost 2 years experience in
+                                        front-end and UI/UX Designer. I have
+                                        worked on several e-commerce websites.
                                     </p>
                                 </Col>
                             </Row>
@@ -414,10 +447,9 @@ export default function Resume() {
                                 <Col md={10} className="col-detail-serv">
                                     <h2>Website Development</h2>
                                     <p>
-                                        Posuere mattis. Suspendisse egestas
-                                        bibendum nulla. In erat nunc, posuere
-                                        sed, auctor quis, pulvinar quis, mi.
-                                        Mauris at est.
+                                        In website development, I focus more on
+                                        the frontend than the backend, I usually
+                                        use React js for website development.
                                     </p>
                                 </Col>
                             </Row>
@@ -437,10 +469,7 @@ export default function Resume() {
                                 <Col md={10} className="col-detail-serv">
                                     <h2>Mobile Development</h2>
                                     <p>
-                                        Posuere mattis. Suspendisse egestas
-                                        bibendum nulla. In erat nunc, posuere
-                                        sed, auctor quis, pulvinar quis, mi.
-                                        Mauris at est.
+                                        I've made several mobile applications such as a movie list application and a todo list application.
                                     </p>
                                 </Col>
                             </Row>

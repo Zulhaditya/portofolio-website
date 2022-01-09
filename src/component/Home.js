@@ -20,7 +20,7 @@ export default function Home() {
     >
       <section className="section">
         <h1 className="glitch">
-          I'm Zulhaditya Hapiz,
+          I'm Zulhaditya,
         </h1>
 
         <div className="typeWritter">
@@ -31,11 +31,11 @@ export default function Home() {
             }}
             onInit={(typeWritter) => {
               typeWritter
-                .typeString('UI/UX Designer and Front-end Developer.')
+                .typeString('UI/UX Designer and Front-End Developer.')
                 .start()
                 .pauseFor(3000)
                 .deleteAll()
-                .typeString('Based in Yogyakarta.')
+                .typeString('Based in Yogyakarta, Indonesia.')
                 .start()
                 .pauseFor(3000);
             }}

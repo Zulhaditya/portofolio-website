@@ -56,7 +56,7 @@ export default function Contact() {
                     />
                   </div>
                   <div className="col text-contact">Address</div>
-                  <div className="desc-contact">Kepulauan Riau, Indonesia</div>
+                  <div className="desc-contact">Yogyakarta, Indonesia</div>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function Contact() {
               <div className="col-lg-7 sub-form-contact">
                 <FloatingLabel
                   controlId="floatingInput"
-                  label="Nama"
+                  label="Name"
                   className="mb-3"
                 >
                   <Form.Control
@@ -85,7 +85,7 @@ export default function Contact() {
                     style={{ backgroundColor: 'transparent', color: 'white' }}
                   />
                 </FloatingLabel>
-                <FloatingLabel controlId="floatingTextarea2" label="Pesan">
+                <FloatingLabel controlId="floatingTextarea2" label="Messages">
                   <Form.Control
                     as="textarea"
                     placeholder="Leave a comment here"
@@ -108,7 +108,7 @@ export default function Contact() {
                   }}
                   className="btn-contact"
                 >
-                  Kirim
+                  Send
                 </Button>
               </div>
             </div>

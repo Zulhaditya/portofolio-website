@@ -1,3 +1,6 @@
+p {
+  font-size: 18px;
+}
 .container-resume {
   display: flex;
   justify-content: center;
@@ -30,6 +33,7 @@
 }
 
 .detail-aboutMe {
+  padding-right: 50px;
   font-size: 18px;
   margin-bottom: 50px;
 }
@@ -99,9 +103,9 @@
 .garis-1 {
   position: absolute;
   width: 40px;
-  height: 190px;
+  height: 200px;
   left: 323px;
-  top: 975px;
+  top: 970px;
   border: 1px solid rgb(255, 184, 108);
   border-right: none;
 }
@@ -109,9 +113,9 @@
 .garis-2 {
   position: absolute;
   width: 40px;
-  height: 190px;
+  height: 195px;
   left: 323px;
-  top: 1165px;
+  top: 1170px;
   border: 1px solid rgb(255, 184, 108);
   border-right: none;
 }
@@ -119,9 +123,9 @@
 .garis-3 {
   position: absolute;
   width: 40px;
-  height: 190px;
+  height: 200px;
   left: 983px;
-  top: 975px;
+  top: 970px;
   border-top: none;
   border-bottom: none;
   border: 1px solid rgb(139, 233, 253);
@@ -131,9 +135,9 @@
 .garis-4 {
   position: absolute;
   width: 40px;
-  height: 190px;
+  height: 195px;
   left: 983px;
-  top: 1165px;
+  top: 1170px;
   border: 1px solid rgb(139, 233, 253);
   border-right: none;
 }
@@ -384,7 +388,7 @@
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(165deg);
+    transform: rotate(90deg);
   }
 }
 
@@ -421,7 +425,7 @@
 }
 
 .list-knowledge {
-  margin-left: 170px;
+  margin-left: 100px;
   margin-bottom: 10px;
 }
 
@@ -439,7 +443,9 @@
 }
 
 .row-serv {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
 }
 
 .col-detail-serv h2 {
@@ -513,6 +519,7 @@
 
 .main-design {
   padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 .section-figma,
@@ -521,10 +528,23 @@
   margin-bottom: 30px;
 }
 
+
+
 /*Responsive Mobile*/
 @media only screen and (max-width: 600px) {
   .garis-1,.garis-2,.garis-3,.garis-4{
     display: none;
+  }
+
+
+
+.row-serv {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+  .icon-serv {
+    margin-left: 0;
   }
   .img-profile {
     display: none;
@@ -559,8 +579,9 @@
     padding: 20px;
   }
   .detail-aboutMe {
-    text-align: justify;
-    font-size: 16px;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 0;
   }
   .judul-aboutMe {
     font-size: 30px;
@@ -683,8 +704,8 @@
   }
 
   .list-knowledge {
-    width: max-content;
     margin: auto;
+    margin-left: 20px;
     margin-bottom: 10px;
   }
   .list-knowledge .sub-list {
