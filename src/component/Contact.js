@@ -7,7 +7,35 @@ import {
 
 import { send } from "emailjs-com";
 import { useState } from "react";
-import { FloatingLabel, Form, Button, Container } from "react-bootstrap";
+import { FloatingLabel, Form, Button, Container, Modal } from "react-bootstrap";
+
+function MyVerticallyCenteredModal(props) {
+    return (
+        <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton style={{ color: "rgb(80, 250, 123)" }}>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    Successfully sent a message!
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <h4>Thank you for your attention.</h4>
+                <p>
+                    I will reply to your message as soon as possible so we can
+                    work together.
+                </p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button onClick={props.onHide} className='btn-danger'>Close</Button>
+            </Modal.Footer>
+        </Modal>
+    );
+}
+
 export default function Contact() {
     const [toSend, setToSend] = useState({
         from_name: "",
@@ -15,8 +43,12 @@ export default function Contact() {
         message: "",
     });
 
+    const [modalShow, setModalShow] = useState(false);
+
     const onSubmit = (e) => {
         e.preventDefault();
+        setModalShow(true);
+
         send(
             "service_h2hbhlv",
             "template_3t2jdk6",
@@ -35,8 +67,20 @@ export default function Contact() {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
     };
 
+    const clearSubmit = () => {
+        setToSend({
+            from_name: "",
+            from_email: "",
+            message: "",
+        });
+    };
+
     return (
         <Container fluid style={{ background: "#383a59" }}>
+            <MyVerticallyCenteredModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
             <section className="section-contact">
                 <div className="container">
                     <div className="sub-section-contact">
@@ -171,6 +215,7 @@ export default function Contact() {
                                     }}
                                     className="btn-contact"
                                     type="submit"
+                                    onClick={clearSubmit}
                                 >
                                     Send
                                 </Button>

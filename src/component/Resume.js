@@ -376,7 +376,7 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Web Performance Optimization
+                                    Command Line
                                 </span>
                             </div>
                             <div className="list-knowledge">

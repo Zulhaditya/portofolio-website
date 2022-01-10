@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+.main-container {
+  background-image: url(/src/img/bg.jpg);
+}
 .navbar {
   background-color: #191b24;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.198);
@@ -34,6 +37,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .main-container {
+    background-image: none;
+    background-color: rgb(56, 58, 89);
+  }
   .section {
     width: 100%;
     padding: 20px;

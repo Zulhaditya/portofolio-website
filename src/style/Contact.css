@@ -7,6 +7,19 @@
   
 }
 
+.modal-content {
+  background-color: #0f0f18 !important;
+  color: white; 
+}
+
+.btn-close {
+  display: none;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
 .sub-section-contact {
   padding-top: 20px;
   min-height: 90vh;

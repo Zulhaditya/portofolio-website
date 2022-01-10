@@ -557,6 +557,7 @@ p {
   }
   .col-knowedu {
     box-shadow: none;
+    padding-bottom: 20px;
   }
   .main-design {
   padding: 0;
@@ -661,9 +662,6 @@ p {
 
   .core-section {
     padding: 30px;
-  }
-  .col-detail-serv {
-    padding-left: 20px;
   }
   .col-detail-serv h2 {
     text-align: center;

@@ -1,5 +1,4 @@
 import TypeWritter from 'typewriter-effect';
-import bgImage from '../img/bg.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faInstagram,
@@ -15,8 +14,7 @@ export default function Home() {
   return (
     <Container
       fluid
-      className="g-0"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="g-0 main-container"
     >
       <section className="section">
         <h1 className="glitch">
