@@ -388,22 +388,10 @@ export default function Resume() {
                                     />
                                 </span>
                                 <span className="sub-list">
-                                    Search Engine Optimization
-                                </span>
-                            </div>
-                            <div className="list-knowledge">
-                                <span>
-                                    <FontAwesomeIcon
-                                        icon={faCheck}
-                                        className="icon-know"
-                                        style={{ color: "#50fa7b" }}
-                                    />
-                                </span>
-                                <span className="sub-list">
                                     Responsive / Mobile Design
                                 </span>
                             </div>
-
+                            
 
 
                         </Col>
