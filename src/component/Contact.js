@@ -30,7 +30,9 @@ function MyVerticallyCenteredModal(props) {
                 </p>
             </Modal.Body>
             <Modal.Footer>
-                <Button onClick={props.onHide} className='btn-danger'>Close</Button>
+                <Button onClick={props.onHide} className="btn-danger">
+                    Close
+                </Button>
             </Modal.Footer>
         </Modal>
     );
@@ -57,6 +59,11 @@ export default function Contact() {
         )
             .then((response) => {
                 console.log("SUCCESS!", response.status, response.text);
+                setToSend({
+                    from_name: "",
+                    from_email: "",
+                    message: "",
+                });
             })
             .catch((err) => {
                 console.log("FAILED...", err);
@@ -65,14 +72,6 @@ export default function Contact() {
 
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
-    };
-
-    const clearSubmit = () => {
-        setToSend({
-            from_name: "",
-            from_email: "",
-            message: "",
-        });
     };
 
     return (
@@ -215,7 +214,6 @@ export default function Contact() {
                                     }}
                                     className="btn-contact"
                                     type="submit"
-                                    onClick={clearSubmit}
                                 >
                                     Send
                                 </Button>
